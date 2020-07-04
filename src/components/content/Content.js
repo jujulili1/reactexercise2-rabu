@@ -1,6 +1,7 @@
 import React from 'react'
+
 import "./Content.css"
-import image from "../../assets/1.jpg"
+
 function Content(props) {
 
     return (
