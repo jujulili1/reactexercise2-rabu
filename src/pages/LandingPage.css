@@ -1,0 +1,16 @@
+.profile {
+    margin: 50px auto;
+  }
+  .block-card {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    .block-card {
+      flex-direction: column;
+      align-content: center;
+    }
+  }

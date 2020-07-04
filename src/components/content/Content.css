@@ -1,14 +1,25 @@
 .card {
-    width: 350px;
+    margin-top: 5px;
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid black;
-}
+    justify-content: center;
+    /* border: 1px solid rgba(183, 98, 236, 0.973); */
+    border-radius: 5px;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    border: 1px solid rgb(133, 126, 126)
+  }
+  .video {
+    margin-top: 5px;
+    width: 150px;
+    height: 100px;
+  }
 
-.img {
-    margin-top: 0;
-}
-
-h4 {
-    margin-top: 0;
-}
+  .title p{
+      margin-top: 0;
+  }
